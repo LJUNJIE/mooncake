@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-report" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-report/cake-report-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-report/cake-report-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-system/cake-system-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-system/cake-system-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-zuul" charset="UTF-8" />
+  </component>
+</project>

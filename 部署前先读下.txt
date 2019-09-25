@@ -1,0 +1,16 @@
+﻿
+一。环境要求
+JDK1.8 
+二。启动方式
+JAVA启动
+三。启动顺序
+udapx-eureka ---注册中心模块
+udapx-zuul --- 网关模块
+udapx-system-web --- 系统web模块
+udapx-report -web--- 报表web模块
+四。测试
+由于有网关统一管理 ，所以所有接口是由网关配置文件控制 
+给个例子
+http://localhost:8769/system/hi?name=forezp
+http://localhost:8769/system/toReport?name=forezp
+系统已经配置好数据源 可以直接上手开发demo

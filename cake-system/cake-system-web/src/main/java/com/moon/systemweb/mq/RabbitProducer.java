@@ -1,0 +1,42 @@
+package com.moon.systemweb.mq;
+
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.amqp.rabbit.support.CorrelationData;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationListener;
+import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.stereotype.Component;
+
+import java.time.LocalDateTime;
+import java.util.UUID;
+import java.util.stream.IntStream;
+
+/**
+ * 消息生产者
+ *
+ * @author huan.fu
+ * @date 2018/11/5 - 14:10
+ */
+@Component
+public class RabbitProducer{
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
+    public void send() {
+        String exchange = "exchange-rabbit-springboot-advance";
+        String routingKey = "product";
+        String unRoutingKey = "norProduct";
+
+        // 1.发送一条正常的消息 CorrelationData唯一（可以在ConfirmListener中确认消息）
+        IntStream.rangeClosed(0, 10).forEach(num -> {
+            String message = LocalDateTime.now().toString() + "发送第" + (num + 1) + "条消息.";
+            rabbitTemplate.convertAndSend(exchange, routingKey, message, new CorrelationData("routing" + UUID.randomUUID().toString()));
+            System.out.println("发送一条消息,exchange:[{}],routingKey:[{}],message:[{}]"+exchange+routingKey+message);
+        });
+        // 2.发送一条未被路由的消息，此消息将会进入备份交换器（alternate exchange）
+        String message = LocalDateTime.now().toString() + "发送一条消息.";
+        rabbitTemplate.convertAndSend(exchange, unRoutingKey, message, new CorrelationData("unRouting-" + UUID.randomUUID().toString()));
+        System.out.println("发送一条消息,exchange:[{}],routingKey:[{}],message:[{}]"+exchange+unRoutingKey+message);
+    }
+}

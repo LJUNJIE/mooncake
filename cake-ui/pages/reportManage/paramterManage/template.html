@@ -1,0 +1,93 @@
+<!-- 模板管理和参数管理的模板的父模板 -->
+<script type="text/html" id="collapse_tem_parent">
+    {{each dataList}}
+    {{set exist = $value.children && $value.children.length>0}}
+    <div class="layui-collapse">
+        {{ if exist }}
+        <div class="layui-colla-item">
+            <h2 class="layui-colla-title">
+                {{ $value.name }}
+                <span class="layui-icon layui-icon-delete"></span>
+                <span class="layui-icon layui-icon-edit"></span>
+            </h2>
+                <div class="layui-colla-content">
+                    {{include 'collapse_tem_children' $value}}
+                </div>
+        </div>
+        {{ else }}
+        <div class="layui-colla-item none-children">
+                <h2 class="layui-colla-title">
+                    {{ $value.name }}
+                    <span class="layui-icon layui-icon-delete"></span>
+                    <span class="layui-icon layui-icon-edit"></span>
+                </h2>
+        </div>
+        {{ /if }}
+    </div>
+    {{/each}}
+</script>
+
+<!-- 模板管理和参数管理的模板的子模板 -->
+<script type="text/html" id="collapse_tem_children">
+    {{each children}}
+    {{set exist = $value.children && $value.children.length>0}}
+    <div class="layui-collapse">
+        {{if exist}}
+        <div class="layui-colla-item">
+            <h2 class="layui-colla-title">
+                {{ $value.name }}
+                <span class="layui-icon layui-icon-delete"></span>
+                <span class="layui-icon layui-icon-edit"></span>
+            </h2>
+                <div class="layui-colla-content">
+                    {{include 'collapse_tem_children' $value}}
+                </div>
+        </div>
+        {{ else }}
+        <div class="layui-colla-item none-children">
+                <h2 class="layui-colla-title">
+                    {{ $value.name }}
+                    <span class="layui-icon layui-icon-delete"></span>
+                    <span class="layui-icon layui-icon-edit"></span>
+                </h2>
+        </div>
+        {{ /if }}
+    </div>
+    {{/each}}
+</script>
+
+<!-- 页面的静态模板 -->
+<script type="text/html" id="container_tem">
+    <div class="container">
+        <div class="bottom-container">
+            <div class="left-pannel">
+                <header class="pannel-header">
+                    <span>参数模板列表</span>
+                    <span>+</span>
+                </header>
+                <div class="layui-tab">
+                    <ul class="layui-tab-title">
+                        <li class="layui-this">模板管理</li>
+                        <li>参数管理</li>
+                    </ul>
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show" id="template_pannel">
+                        </div>
+                        <div class="layui-tab-item" id="parameter_pannel">内容2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-pannel">
+                <header class="pannel-header">
+                    <span>模板名称</span>
+                </header>
+            </div>
+        </div>
+        <div class="top-container">
+            <header class="pannel-header">
+                <span>参数属性设置</span>
+            </header>
+            <main></main>
+        </div>
+    </div>
+</script>

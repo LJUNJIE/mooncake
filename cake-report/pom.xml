@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>moon</groupId>
+        <artifactId>cake</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.moon</groupId>
+    <artifactId>report</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>report</name>
+    <packaging>pom</packaging>
+    <description>Demo project for Spring Boot</description>
+
+    <modules>
+        <module>cake-report-api</module>
+        <module>cake-report-web</module>
+    </modules>
+
+</project>
