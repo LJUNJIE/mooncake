@@ -7,12 +7,14 @@
     <file url="file://$PROJECT_DIR$/cake-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-ops" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-ops/cake-ops-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-ops/cake-ops-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-report" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-report/cake-report-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-report/cake-report-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-system" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-system/cake-system-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-system/cake-system-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cake-zuul" charset="UTF-8" />
   </component>
 </project>

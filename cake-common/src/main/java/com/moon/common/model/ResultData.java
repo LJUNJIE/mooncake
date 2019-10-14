@@ -1,6 +1,5 @@
 package com.moon.common.model;
 
-import io.swagger.models.auth.In;
 
 import java.util.List;
 import java.util.Map;

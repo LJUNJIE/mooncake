@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.moon.systemweb.mapper.SysLogErrorMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.moon.systemapi.entity.SysLogError">
+        <id column="id" property="id" />
+        <result column="tenant_id" property="tenantId" />
+        <result column="service_id" property="serviceId" />
+        <result column="server_host" property="serverHost" />
+        <result column="server_ip" property="serverIp" />
+        <result column="env" property="env" />
+        <result column="method" property="method" />
+        <result column="request_uri" property="requestUri" />
+        <result column="user_agent" property="userAgent" />
+        <result column="stack_trace" property="stackTrace" />
+        <result column="exception_name" property="exceptionName" />
+        <result column="message" property="message" />
+        <result column="line_number" property="lineNumber" />
+        <result column="remote_ip" property="remoteIp" />
+        <result column="method_class" property="methodClass" />
+        <result column="file_name" property="fileName" />
+        <result column="method_name" property="methodName" />
+        <result column="params" property="params" />
+        <result column="time" property="time" />
+        <result column="create_by" property="createBy" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+</mapper>

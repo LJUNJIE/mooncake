@@ -6,7 +6,7 @@ server:
   port: 8700
 spring:
   application:
-    name: oauth-system
+    name: oauth-service
 feign:
   hystrix:
     enabled: true

@@ -21,7 +21,6 @@
         <module>cake-gateway</module>
         <module>cake-system</module>
         <module>cake-report</module>
-        <module>cake-zuul</module>
         <module>cake-oauth</module>
     </modules>
 

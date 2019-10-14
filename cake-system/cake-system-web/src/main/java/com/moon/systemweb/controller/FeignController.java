@@ -2,6 +2,7 @@ package com.moon.systemweb.controller;
 
 import com.moon.common.model.ResultData;
 import com.moon.reportapi.dto.ReportDto;
+import com.moon.systemapi.entity.SysUser;
 import com.moon.systemapi.entity.User;
 import com.moon.systemweb.service.feign.ReportRemoteService;
 import io.swagger.annotations.Api;
@@ -19,9 +20,10 @@ public class FeignController {
     @RequestMapping("/getUserByName")
     @ResponseBody
     @ApiOperation(value="测试用接口", notes="测试用接口" ,httpMethod="POST")
-    public User home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        User user = new User();
-        user.setUserName("aabb");
+    public SysUser home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
+        SysUser user = new SysUser();
+        user.setName("aabb");
+        user.setId(1);
         user.setPassword("123456");
         return user;
     }

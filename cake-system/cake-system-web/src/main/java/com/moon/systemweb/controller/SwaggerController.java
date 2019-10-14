@@ -22,6 +22,25 @@ public class SwaggerController {
      * required–是否必填
      */
     @ApiOperation(value="获取用户信息get",notes="注意问题点")
+    @GetMapping("/test")
+    public User test() {
+        // userService可忽略，是业务逻辑
+        User user = new User();
+        user.setUserName("郭溪");
+        return user;
+    }
+
+
+    /**
+     * @ApiOperation() 用于方法；表示一个http请求的操作
+     * value用于方法描述
+     * notes用于提示内容
+     * @ApiParam() 用于方法，参数，字段说明；表示对参数的添加元数据（说明或是否必填等）
+     * name–参数名
+     * value–参数说明
+     * required–是否必填
+     */
+    @ApiOperation(value="获取用户信息get",notes="注意问题点")
     @GetMapping("/getUserInfo")
     public User getUserInfo(@ApiParam(name="id",value="用户id",required=true) Long id, @ApiParam(name="username",value="用户名") String username) {
         // userService可忽略，是业务逻辑

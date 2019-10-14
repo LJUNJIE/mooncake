@@ -3,6 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cake-config" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/cake-zuul" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/cake-ops" vcs="svn" />
   </component>
 </project>

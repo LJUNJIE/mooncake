@@ -11,12 +11,17 @@
         <module name="eureka" />
         <module name="gateway" />
         <module name="oauth" />
+        <module name="ops" />
+        <module name="ops-api" />
+        <module name="ops-web" />
         <module name="report-api" />
         <module name="report-web" />
         <module name="system-api" />
         <module name="system-web" />
-        <module name="zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,7 +6,10 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
+import org.springframework.data.annotation.Transient;
+
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * <p>
@@ -17,7 +20,7 @@ import java.io.Serializable;
  * @since 2019-09-25
  */
 @TableName("sys_user")
-public class SysUser extends Model<SysUser> {
+public class SysUser extends Model<SysUser> implements java.io.Serializable{
 
     private static final long serialVersionUID = 1L;
 
@@ -36,7 +39,7 @@ public class SysUser extends Model<SysUser> {
     /**
      * 账号
      */
-    private String account;
+    private String name;
 
     /**
      * 密码
@@ -46,7 +49,7 @@ public class SysUser extends Model<SysUser> {
     /**
      * 昵称
      */
-    private String name;
+    private String nickName;
 
     /**
      * 真名
@@ -115,11 +118,17 @@ public class SysUser extends Model<SysUser> {
      */
     private Integer status;
 
+
     /**
      * 是否已删除
      */
     @TableField("is_deleted")
     private Integer isDeleted;
+
+    @TableField(exist = false)
+    private String token;
+    @TableField(exist = false)
+    private List<String> authorities;
 
     public Integer getId() {
         return id;
@@ -135,13 +144,15 @@ public class SysUser extends Model<SysUser> {
     public void setTenantId(String tenantId) {
         this.tenantId = tenantId;
     }
-    public String getAccount() {
-        return account;
+
+    public String getNickName() {
+        return nickName;
     }
 
-    public void setAccount(String account) {
-        this.account = account;
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
     }
+
     public String getPassword() {
         return password;
     }
@@ -248,6 +259,22 @@ public class SysUser extends Model<SysUser> {
         this.isDeleted = isDeleted;
     }
 
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public List<String> getAuthorities() {
+        return authorities;
+    }
+
+    public void setAuthorities(List<String> authorities) {
+        this.authorities = authorities;
+    }
+
     @Override
     protected Serializable pkVal() {
         return this.id;
@@ -258,7 +285,6 @@ public class SysUser extends Model<SysUser> {
         return "SysUser{" +
         "id=" + id +
         ", tenantId=" + tenantId +
-        ", account=" + account +
         ", password=" + password +
         ", name=" + name +
         ", realName=" + realName +
