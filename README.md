@@ -9,17 +9,28 @@
 spring-cloud + redis + rabbitmq + mysql + springboot
 
 业务模块说明
-common  公共模块
-config  配置模块（开发中）
-eureka  注册中心
-gateway 网关模块 
-oauth   权限模块
-ops     运维模块 （业务补充中）
-order   订单模块 （业务补充中）
-product 产品模块 （业务补充中）
-report  报表模块 （业务补充中）
-system  系统模块 （业务补充中）
-ui      前端vue  （开发中）
+-------
+common  ------公共模块 
+
+config --------- 配置模块（开发中）
+
+eureka -------- 注册中心
+
+gateway --------网关模块 
+
+oauth  -------- 权限模块
+
+ops   --------  运维模块 （业务补充中）
+
+order --------  订单模块 （业务补充中）
+
+product-------- 产品模块 （业务补充中）
+
+report  --------报表模块 （业务补充中）
+
+system  --------系统模块 （业务补充中）
+
+ui --------     前端vue  （开发中）
 
 #### 安装教程
 
