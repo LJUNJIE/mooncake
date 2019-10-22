@@ -1,19 +1,35 @@
 # 月饼计划
 
 #### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+开发者来自于广州JAVA群的小萌新，受群里大佬 gu毛毛 的指导下自主开发的后台管理平台，用于学习，用于测试各种案例，分布式事务，消息队列，
+分布式锁等等。
 
 #### 软件架构
 软件架构说明
+spring-cloud + redis + rabbitmq + mysql + springboot
 
+业务模块说明
+common  公共模块
+config  配置模块（开发中）
+eureka  注册中心
+gateway 网关模块 
+oauth   权限模块
+ops     运维模块 （业务补充中）
+order   订单模块 （业务补充中）
+product 产品模块 （业务补充中）
+report  报表模块 （业务补充中）
+system  系统模块 （业务补充中）
+ui      前端vue  （开发中）
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 装好mysql
+2. 装好redis
+3. 装好rabbitmq
+4. 按顺序启动eureka-->gateway-->oauth
+5. 其他模块按需启动
+6. 还在开发阶段
+
 
 #### 使用说明
 
