@@ -1,7 +1,5 @@
 package com.moon.common.config;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
@@ -151,4 +149,17 @@ public class RabbitmqConfig {
         return BindingBuilder.bind(dlxQueue()).to(dlxExchange());
     }
 
+
+    //声明队列
+    @Bean
+    public Queue productQueue() {
+        return new Queue("product.queue", true); // true表示持久化该队列
+    }
+
+    //绑定
+    @Bean
+    public Binding bindToProduct() {
+        return BindingBuilder.bind(productQueue()).to(topicExchange()).with("toProduct");
+
+    }
 }

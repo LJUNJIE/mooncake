@@ -4,8 +4,9 @@ package com.moon.systemweb.controller;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.moon.common.model.ResultData;
 import com.moon.systemapi.entity.SysMenu;
-import com.moon.systemweb.req.PageReq;
+import com.moon.common.model.PageReq;
 import com.moon.systemweb.service.ISysMenuService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,6 +25,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @RequestMapping("/menu")
+@Api(tags={"menu"})
 public class SysMenuController {
 
     @Autowired

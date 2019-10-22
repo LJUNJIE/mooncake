@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cake-config" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/cake-ops" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/cake-order" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/cake-product" vcs="svn" />
   </component>
 </project>

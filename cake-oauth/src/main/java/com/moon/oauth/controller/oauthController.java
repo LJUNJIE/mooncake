@@ -54,13 +54,5 @@ public class oauthController {
         return new ResultData();
 
     }
-
-
-    @RequestMapping("/test")
-    public ResultData test() {
-
-
-        return new ResultData(1,"11111111111");
-
-    }
+    
 }

@@ -10,6 +10,13 @@
     <file url="file://$PROJECT_DIR$/cake-ops" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-ops/cake-ops-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-ops/cake-ops-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-order/cake-order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-order/cake-order-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-order/order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-product/cake-product-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cake-product/cake-product-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-report" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-report/cake-report-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cake-report/cake-report-web" charset="UTF-8" />

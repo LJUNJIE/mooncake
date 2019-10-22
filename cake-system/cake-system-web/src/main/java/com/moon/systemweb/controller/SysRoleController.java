@@ -4,7 +4,7 @@ package com.moon.systemweb.controller;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.moon.common.model.ResultData;
 import com.moon.systemapi.entity.SysRole;
-import com.moon.systemweb.req.PageReq;
+import com.moon.common.model.PageReq;
 import com.moon.systemweb.service.ISysRoleService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

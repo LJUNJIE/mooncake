@@ -11,6 +11,12 @@
         <option value="$PROJECT_DIR$/cake-ops/pom.xml" />
         <option value="$PROJECT_DIR$/cake-ops/cake-ops-api/pom.xml" />
         <option value="$PROJECT_DIR$/cake-ops/cake-ops-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cake-product/pom.xml" />
+        <option value="$PROJECT_DIR$/cake-order/pom.xml" />
+        <option value="$PROJECT_DIR$/cake-order/cake-order-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cake-order/cake-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cake-product/cake-product-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cake-product/cake-product-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -1,21 +1,26 @@
 package com.moon.gateway.filter;
 
-
+import java.nio.charset.StandardCharsets;
+import java.util.Date;
 import java.util.List;
-
 import javax.annotation.Resource;
 
+import com.alibaba.fastjson.JSONObject;
+import com.moon.gateway.feign.IOpsClient;
+import com.moon.ops.dto.SysApiLogDto;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
+import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
+import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.server.ServerWebExchange;
-
 import reactor.core.publisher.Mono;
 
 /**
@@ -31,6 +36,8 @@ public class AccessFilter implements GlobalFilter ,Ordered{
 
     @Resource
     private RedisTemplate<String, Object> redisTemplate ;
+    @Autowired
+    private IOpsClient opsClient;
 
     @Override
     public int getOrder() {
@@ -54,10 +61,18 @@ public class AccessFilter implements GlobalFilter ,Ordered{
             return exchange.getResponse().setComplete();
             }else{
                 try {
-
+                    addApiLog(exchange);
                     if(!redisTemplate.hasKey("pwl_access:" + accessToken)){
-                        exchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
-                        return exchange.getResponse().setComplete();
+                        ServerHttpResponse response = exchange.getResponse();
+                        JSONObject message = new JSONObject();
+                        message.put("status", -1);
+                        message.put("data", "鉴权失败");
+                        byte[] bits = message.toJSONString().getBytes(StandardCharsets.UTF_8);
+                        DataBuffer buffer = response.bufferFactory().wrap(bits);
+                        response.setStatusCode(HttpStatus.UNAUTHORIZED);
+                        //指定编码，否则在浏览器中会中文乱码
+                        response.getHeaders().add("Content-Type", "text/plain;charset=UTF-8");
+                        return response.writeWith(Mono.just(buffer));
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -84,5 +99,17 @@ public class AccessFilter implements GlobalFilter ,Ordered{
         }
 
         return authToken;
+    }
+
+    void addApiLog(ServerWebExchange exchange) {
+        ServerHttpRequest request = exchange.getRequest();
+        SysApiLogDto sysApiLog = new SysApiLogDto();
+        sysApiLog.setEnv("dev");
+        sysApiLog.setRequestUri(exchange.getRequest().getURI().getPath());
+        sysApiLog.setMethod(request.getMethodValue());
+        sysApiLog.setParams(request.getQueryParams().toString());
+        sysApiLog.setCreateTime(new Date());
+        sysApiLog.setRemoteIp(request.getHeaders().getHost().getHostName());
+        opsClient.addApiLog(sysApiLog);
     }
 }

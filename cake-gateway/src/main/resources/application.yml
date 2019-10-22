@@ -29,3 +29,26 @@ spring:
           - Path=/system/**
         filters:
               - StripPrefix=1  #所有system请求转发到service-system
+      - id: ops-service
+        uri: lb://ops-service/
+        predicates:
+          - Path=/ops/**
+        filters:
+              - StripPrefix=1  #所有system请求转发到ops-system
+feign:
+  hystrix:
+    enabled: true
+#hystrix的超时时间
+hystrix:
+    command:
+        default:
+            execution:
+              timeout:
+                enabled: true
+              isolation:
+                    thread:
+                        timeoutInMilliseconds: 30000
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000

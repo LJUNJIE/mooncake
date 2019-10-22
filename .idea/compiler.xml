@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cake-order-api" />
+        <module name="cake-order-web" />
+        <module name="cake-product-api" />
+        <module name="cake-product-web" />
         <module name="common" />
         <module name="config" />
         <module name="eureka" />
@@ -14,6 +18,9 @@
         <module name="ops" />
         <module name="ops-api" />
         <module name="ops-web" />
+        <module name="order" />
+        <module name="order-api" />
+        <module name="product" />
         <module name="report-api" />
         <module name="report-web" />
         <module name="system-api" />
@@ -21,6 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="order-api" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -4,9 +4,9 @@ package com.moon.systemweb.controller;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.moon.common.model.ResultData;
 import com.moon.systemapi.entity.SysUser;
-import com.moon.systemweb.req.PageReq;
+import com.moon.common.model.PageReq;
 import com.moon.systemweb.service.ISysUserService;
-import com.moon.systemweb.service.feign.AuthService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import java.security.Principal;
 
 /**
  * <p>
@@ -28,14 +26,13 @@ import java.security.Principal;
  */
 @Controller
 @RequestMapping("/user")
+@Api(tags={"user"})
 public class SysUserController {
 
     @Autowired
     ISysUserService sysUserService;
     @Autowired
     RedisTemplate<String,Object> redisTemplate;
-    @Autowired
-    AuthService authService;
 
     @RequestMapping("/userPage")
     @ResponseBody
@@ -77,8 +74,7 @@ public class SysUserController {
     public ResultData userInfo(@RequestBody SysUser sysUser) {
         if (null != sysUser.getToken()) {
 //            String aaa = (String) redisTemplate.opsForValue().get("pwl_access:"+sysUser.getToken());
-            String aaa = authService.getName();
-            System.out.println(aaa);
+//            System.out.println(aaa);
         }
         SysUser user = sysUserService.selectById(sysUser);
         return new ResultData(0,user);
