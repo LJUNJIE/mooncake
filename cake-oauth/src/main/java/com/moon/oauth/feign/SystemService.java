@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(value = "system-service")
 public interface SystemService {
-    @RequestMapping(value = "/getUserByName",method = RequestMethod.GET)
+    @RequestMapping(value = "/user/getUserByName",method = RequestMethod.GET)
     SysUser getUserByName(@RequestParam(value = "name") String name);
 }

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -87,4 +88,17 @@ public class SysUserController {
     public ResultData test() {
         return new ResultData(0,"11111111111");
     }
+
+    @RequestMapping("/getUserByName")
+    @ResponseBody
+    @ApiOperation(value="/getUserByName", notes="权限-用户信息" ,httpMethod="GET")
+    public SysUser getUserByName(@RequestParam("name") String name) {
+        SysUser user = new SysUser();
+        user.setName(name);
+        user.setId(1);
+        user.setPassword("123456");
+        return user;
+    }
+
+
 }

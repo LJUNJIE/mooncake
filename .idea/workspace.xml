@@ -49,104 +49,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TbOrderInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/impl/TbOrderInfoServiceImpl.java">
+      <file leaf-file-name="roleList.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-ui/src/page/system/roleList.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="25" />
+            <state relative-caret-position="513">
+              <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/mq/Comsumer.java">
+      <file leaf-file-name="menuList.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-ui/src/page/system/menuList.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="56" column="36" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cake-ops/cake-ops-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpswebApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-ops/cake-ops-web/src/main/java/com/moon/ops/OpswebApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DruidConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/config/DruidConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mq/Producer.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-common/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbOrderInfoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/web/TbOrderInfoController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.en.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.en.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="266">
-                <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="500">
+              <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/cake-system/cake-system-web/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="10" selection-start-line="16" selection-end-line="34" selection-end-column="30" />
+            <state>
+              <caret selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake-system/cake-system-api/src/main/java/com/moon/systemapi/entity/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1881">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-            </state>
-          </provider>
+      <file leaf-file-name="role.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-ui/src/api/role.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="RabbitTemplate.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6555">
-              <caret line="484" column="16" selection-start-line="484" selection-start-column="16" selection-end-line="484" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cake-ui/src/api/menu.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -161,36 +147,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>account</find>
-      <find>debugger</find>
-      <find>com.github.pagehelper</find>
-      <find>mybatisplus</find>
-      <find>mybatis</find>
-      <find>getUserList</find>
-      <find>getName</find>
-      <find>authService</find>
-      <find>team/transform/analysisNum</find>
-      <find>183.63.113.210</find>
-      <find>用户</find>
-      <find>spring.datasource.password</find>
+      <find>error_description</find>
+      <find>userInfo</find>
       <find>getUserByName</find>
-      <find>com</find>
-      <find>个人信息子菜单1</find>
-      <find>infoShow1</find>
-      <find>topmenu</find>
-      <find>addApiLog</find>
-      <find>订单</find>
-      <find>apiLog</find>
-      <find>BigDecimal</find>
-      <find>/product/reduce</find>
+      <find>页面权限</find>
+      <find>data</find>
+      <find>druid</find>
+      <find>小爱A</find>
+      <find>广州JAVA群</find>
+      <find>小爱Admin</find>
+      <find>推送</find>
+      <find>小爱</find>
+      <find>用户管理</find>
+      <find>pagePer</find>
+      <find>LeftMenu</find>
+      <find>getIindex</find>
+      <find>routers</find>
+      <find>userManage</find>
+      <find>userManager</find>
+      <find>infoManage</find>
+      <find>chinaTabsList</find>
+      <find>infoShow</find>
+      <find>permission</find>
+      <find>permission_routers</find>
+      <find>listItemUsers</find>
+      <find>月饼</find>
+      <find>xiaoai</find>
+      <find>logo</find>
+      <find>rownum</find>
       <find>reduce</find>
-      <find>binding1</find>
-      <find>topicExchange</find>
-      <find>TbProductInfoDto</find>
-      <find>product.queue</find>
-      <find>polno.queue</find>
-      <find>key.1</find>
-      <find>polnoQueue</find>
+      <find>getUserList</find>
     </findStrings>
     <replaceStrings>
       <replace>日志</replace>
@@ -215,29 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/utils/IpUtil.java" />
-        <option value="$PROJECT_DIR$/cake-ui/src/router/topRouter.js" />
-        <option value="$PROJECT_DIR$/cake-common/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-system/cake-system-web/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-system/cake-system-api/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-ops/cake-ops-web/src/main/java/com/moon/ops/controller/SysApiLogController.java" />
-        <option value="$PROJECT_DIR$/cake-ops/cake-ops-api/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-ops/cake-ops-web/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-oauth/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/controller/SysUserController.java" />
-        <option value="$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/controller/SysMenuController.java" />
-        <option value="$PROJECT_DIR$/cake-oauth/src/main/java/com/moon/oauth/controller/oauthController.java" />
-        <option value="$PROJECT_DIR$/cake-gateway/src/main/java/com/moon/gateway/filter/AccessFilter.java" />
-        <option value="$PROJECT_DIR$/cake-system/cake-system-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cake-report/cake-report-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/controller/RabbitMqController.java" />
-        <option value="$PROJECT_DIR$/cake-report/cake-report-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cake-product/cake-product-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cake-order/cake-order-api/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-order/cake-order-web/pom.xml" />
-        <option value="$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/base/MpGenerator.java" />
-        <option value="$PROJECT_DIR$/cake-product/cake-product-api/pom.xml" />
         <option value="$PROJECT_DIR$/cake-product/cake-product-web/pom.xml" />
         <option value="$PROJECT_DIR$/cake-product/cake-product-api/src/main/java/com/moon/product/dto/TbProductInfo.java" />
         <option value="$PROJECT_DIR$/cake-product/pom.xml" />
@@ -253,19 +216,42 @@
         <option value="$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/ProductwebApplication.java" />
         <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/OrderWebApplication.java" />
         <option value="$PROJECT_DIR$/cake-order/cake-order-api/src/main/java/com/moon/order/entity/TbOrderInfo.java" />
-        <option value="$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/web/TbProductInfoController.java" />
         <option value="$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/service/impl/TbProductInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/ITbOrderInfoService.java" />
-        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/web/TbOrderInfoController.java" />
         <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mq/Comsumer.java" />
         <option value="$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/config/RabbitmqConfig.java" />
         <option value="$PROJECT_DIR$/cake-report/cake-report-web/src/main/java/com/moon/reportweb/mq/Comsumer.java" />
-        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/impl/TbOrderInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mq/Producer.java" />
         <option value="$PROJECT_DIR$/cake-product/cake-product-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/mq/Comsumer.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mq/Producer.java" />
+        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/web/TbOrderInfoController.java" />
+        <option value="$PROJECT_DIR$/cake-oauth/src/main/java/com/moon/oauth/feign/SystemService.java" />
+        <option value="$PROJECT_DIR$/cake-oauth/src/main/java/com/moon/oauth/serviceI/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/cake-common/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/base/DruidDataSource.java" />
+        <option value="$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/base/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/cake-ui/src/page/permission/page.vue" />
+        <option value="$PROJECT_DIR$/cake-ui/src/utils/mUtils.js" />
+        <option value="$PROJECT_DIR$/cake-ui/public/index.html" />
+        <option value="$PROJECT_DIR$/cake-ui/src/store/modules/user.js" />
+        <option value="$PROJECT_DIR$/cake-ui/src/page/login.vue" />
+        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cake-ui/src/layout/leftMenu.vue" />
+        <option value="$PROJECT_DIR$/cake-ui/src/lang/en.js" />
+        <option value="$PROJECT_DIR$/cake-ui/src/lang/zh.js" />
+        <option value="$PROJECT_DIR$/cake-ui/src/router/index.js" />
+        <option value="$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/web/TbProductInfoController.java" />
+        <option value="$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/impl/TbOrderInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cake-ui/src/api/role.js" />
+        <option value="$PROJECT_DIR$/cake-ui/src/api/menu.js" />
+        <option value="$PROJECT_DIR$/cake-ui/src/page/system/roleList.vue" />
+        <option value="$PROJECT_DIR$/cake-ui/src/page/system/menuList.vue" />
+        <option value="$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/cake-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cake-system/cake-system-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cake-ops/cake-ops-web/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -310,8 +296,8 @@
     <handled-path value="$PROJECT_DIR$/cake-ui/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
-    <option name="y" value="112" />
+    <option name="x" value="775" />
+    <option name="y" value="85" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -321,8 +307,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,11 +314,341 @@
               <item name="cake" type="b2602c69:ProjectViewProjectNode" />
               <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-common" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ops" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ops-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-order-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-system-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="monitorLog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="userList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moon_cake" type="462c0819:PsiDirectoryNode" />
+              <item name="cake-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,11 +669,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\svn\moon_cake\cake-product\cake-product-web\src\main\java\com\moon\product" />
-      <recent name="E:\svn\moon_cake\cake-order\cake-order-web\src\main\java\com\moon\order" />
-      <recent name="E:\svn\moon_cake\cake-ops\cake-ops-web\src\main\java\com\moon\ops" />
-      <recent name="E:\svn\moon_cake\cake-gateway\src\main\java\com\moon\gateway\config" />
-      <recent name="E:\svn\cake1.0\cake-system\cake-system-api\src\main\java\com\guwo\systemapi\entity" />
+      <recent name="E:\svn\moon_cake\cake-ui\src\api" />
+      <recent name="E:\svn\moon_cake\cake-ui\src\assets\img" />
+      <recent name="E:\svn\moon_cake\cake-ui\src\page\monitor" />
+      <recent name="E:\svn\moon_cake\cake-ui\src\page\order" />
+      <recent name="E:\svn\moon_cake\cake-ui\src\page\product" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.moon.order.mq" />
@@ -388,14 +702,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductwebApplication">
+  <component name="RunManager" selected="Spring Boot.OpswebApplication">
     <configuration name="MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.moon.common.base.MpGenerator" />
       <module name="common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.moon.common.base.*" />
+          <option name="PATTERN" value="com.moon.common.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -535,11 +849,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.OauthApplication" />
-        <item itemvalue="Application.MpGenerator" />
         <item itemvalue="Spring Boot.SystemWebApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Application.MpGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -574,12 +888,14 @@
       <workItem from="1571378278098" duration="1713000" />
       <workItem from="1571380278895" duration="11591000" />
       <workItem from="1571620041150" duration="17159000" />
-      <workItem from="1571709987563" duration="6547000" />
+      <workItem from="1571709987563" duration="33767000" />
+      <workItem from="1571904308272" duration="5784000" />
+      <workItem from="1571986122118" duration="6347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177324000" />
+    <option name="totallyTimeSpent" value="216675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,7 +922,7 @@
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.4989339" visible="true" weight="0.36205018" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" sideWeight="0.4989339" visible="true" weight="0.35877863" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.3293348" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32715377" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -617,11 +933,12 @@
       <window_info anchor="bottom" id="Run" order="12" weight="0.32824427" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49895832" weight="0.31842965" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4992126" visible="true" weight="0.17697228" />
       <window_info anchor="bottom" id="Problems" order="4" weight="0.3293348" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4992126" visible="true" weight="0.17857143" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="JRebel" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32824427" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" sideWeight="0.5007874" side_tool="true" weight="0.18230277" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5013889" side_tool="true" weight="0.32995737" />
@@ -629,7 +946,6 @@
       <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32824427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="8" />
     </layout>
@@ -642,196 +958,268 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="203" />
+      <option name="time" value="219" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-api/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/product/productList.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="209">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/order/orderList.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="209">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/lang/en.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="798">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-api/src/main/java/com/moon/order/base/OrderConstants.java">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/lang/zh.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="817">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-api/src/main/java/com/moon/order/entity/TbOrderDetail.java">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="6327">
+          <caret line="335" column="34" lean-forward="true" selection-start-line="335" selection-start-column="34" selection-end-line="335" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-api/src/main/java/com/moon/product/entity/TbProductInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-api/src/main/java/com/moon/product/ProductapiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-system/cake-system-api/src/main/java/com/moon/systemapi/SystemApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/SystemWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-report/cake-report-web/src/main/java/com/moon/reportweb/ReportWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-report/cake-report-web/src/main/java/com/moon/reportweb/controller/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/OrderWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mapper/TbOrderDetailMapper.java">
+    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/ITbOrderDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
+    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/mq/Comsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-gateway/src/main/java/com/moon/gateway/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-oauth/src/main/java/com/moon/oauth/controller/oauthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-oauth/src/main/java/com/moon/oauth/serviceI/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-oauth/src/main/java/com/moon/oauth/feign/SystemService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mapper/TbOrderInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/SystemWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/infoManage/infoModify.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="106" selection-start-line="106" selection-end-line="212" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/store/modules/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        <state relative-caret-position="406">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/reflection/wrapper/BeanWrapper.class">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/permission/page.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-586" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="5" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/layout/content.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/utils/mUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="178" column="33" lean-forward="true" selection-start-line="178" selection-start-column="33" selection-end-line="178" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/mockjs/money.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/layout/home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="54" column="18" lean-forward="true" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/store/modules/permission.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="135" column="76" selection-start-line="135" selection-start-column="76" selection-end-line="135" selection-end-column="76" />
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-api/src/main/java/com/moon/order/dto/TbOrderDto.java">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/product/productList.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/service/ITbProductInfoService.java">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/order/orderList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/layout/leftMenu.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/lang/zh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/web/TbOrderDetailController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-api/src/main/java/com/moon/order/entity/TbOrderInfo.java">
+    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/web/TbOrderInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="608">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/ITbOrderInfoService.java">
+    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mq/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="1045">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+          <folding>
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/web/TbProductInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="1045">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -842,182 +1230,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/constants/MqConstants.java">
+    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/impl/TbOrderInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/mq/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-system/cake-system-web/src/main/java/com/moon/systemweb/controller/RabbitMqController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-api/src/main/java/com/moon/product/dto/TbProductInfoDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/service/impl/TbProductInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/config/RabbitmqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="388">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#3496#3497#0" expanded="true" />
-            <element signature="e#3567#3568#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/ProductwebApplication.java">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/lang/en.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="158">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/org/apache/commons/codec/digest/Md5Crypt.class">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="371" selection-start-line="371" selection-end-line="371" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/support/CorrelationData.class">
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/api/menu.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/api/role.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/system/roleList.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="513">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ui/src/page/system/menuList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="126" column="34" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-ops/cake-ops-web/src/main/java/com/moon/ops/OpswebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-common/src/main/java/com/moon/common/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake-common/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cake-system/cake-system-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="22" selection-start-line="22" selection-end-line="40" selection-end-column="30" />
+        <state>
+          <caret selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cake-ops/cake-ops-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.4.RELEASE/spring-rabbit-2.0.4.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6555">
-          <caret line="484" column="16" selection-start-line="484" selection-start-column="16" selection-end-line="484" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-system/cake-system-api/src/main/java/com/moon/systemapi/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1881">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-report/cake-report-web/src/main/java/com/moon/reportweb/mq/Comsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="10" selection-start-line="16" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/service/impl/TbOrderInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/mq/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-product/cake-product-web/src/main/java/com/moon/product/mq/Comsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake-order/cake-order-web/src/main/java/com/moon/order/web/TbOrderInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.en.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="258">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

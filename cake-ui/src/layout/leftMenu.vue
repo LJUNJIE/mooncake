@@ -1,8 +1,8 @@
 <template>
    <div class="menu_left cflex" :style="{width:sidebar.width+'px'}">
         <div class="menu_page_top rflex">
-            <img :class='["logo",{"closeLogo":!sidebar.opened}]' :src="logo" alt="小爱admin" >
-            <span class='title' v-show="sidebar.opened">{{$t('commons.xiaoai')}}<i>Admin</i></span>
+            <img :class='["logo",{"closeLogo":!sidebar.opened}]' :src="logo" alt="广州JAVA群" >
+            <span class='title' v-show="sidebar.opened">{{$t('commons.xiaoai')}}<i>计划</i></span>
         </div>
         <div class="menu_page_bottom is-scroll-left">
             <el-menu 
@@ -50,8 +50,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import * as mUtils from "@/utils/mUtils";
-import logoImg from "@/assets/img/logo.png";
+import logoImg from "@/assets/img/logo2.png";
 
 
 export default {
@@ -59,8 +58,8 @@ export default {
   data() {
     return {
        menuObj:{
-         bgColor:'#fff',
-         textColor:'#666',
+         bgColor:'#1E1E1E',
+         textColor:'white',
          activeTextColor:'#ff6428',
        },
        logo:logoImg

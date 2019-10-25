@@ -66,9 +66,10 @@ public class TbProductInfoController {
     @RequestMapping("/reduce")
     @ResponseBody
     @ApiOperation(value="reduce", notes="减少库存" ,httpMethod="POST")
-    public ResultData reduce(@RequestBody TbProductInfoDto tbProductInfoDto) {
+    public ResultData reduce(@RequestBody TbProductInfoDto tbProductInfoDto) throws Exception {
         tbProductInfoService.reduce(tbProductInfoDto);
-        return new ResultData(0,"修改成功");
+        throw new Exception("123");
+//        return new ResultData(0,"修改成功");
     }
 
 

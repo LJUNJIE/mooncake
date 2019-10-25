@@ -2,7 +2,6 @@ package com.moon.order.mq;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import org.apache.commons.codec.digest.Md5Crypt;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageProperties;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -10,7 +9,6 @@ import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
-import org.springframework.util.DigestUtils;
 
 import java.util.UUID;
 
@@ -57,9 +55,9 @@ public class Producer implements RabbitTemplate.ConfirmCallback {
             System.out.println("消息发送确认成功");
         } else {
             //重试机制
+            System.out.println("消息发送确认失败:" + cause);
             String data = (String) redisTemplate.opsForValue().get(correlationId);
             send(data);
-            System.out.println("消息发送确认失败:" + cause);
         }
     }
 }

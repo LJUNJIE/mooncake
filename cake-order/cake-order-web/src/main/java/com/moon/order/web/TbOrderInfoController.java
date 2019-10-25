@@ -7,6 +7,7 @@ import com.moon.common.model.ResultData;
 import com.moon.order.dto.TbOrderDto;
 import com.moon.order.entity.TbOrderInfo;
 import com.moon.order.service.ITbOrderInfoService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

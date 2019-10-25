@@ -10,7 +10,7 @@ const user  = {
     avatar:'',
     token: getToken('Token'),
     roles: [],
-    browserHeaderTitle: mUtils.getStore('browserHeaderTitle') || '小爱Admin'
+    browserHeaderTitle: mUtils.getStore('browserHeaderTitle') || '广州JAVA群'
   },
   getters : {
     token: state => state.token,

@@ -7,7 +7,12 @@ const zh = {
       quit: 'Sign Out',
       hi: 'Hi',
       index: 'Dashboard',
-      userManage: 'Users',
+      systemName: 'System',
+        orderList:'orders',
+        productList:'products',
+        userList: 'users',
+        roleList: 'roles',
+        menuList: 'menus',
       share: 'Share',
       infoManage: 'Infos',
       infoShow: 'InfoShow',
@@ -33,7 +38,9 @@ const zh = {
       errorPage: 'ErrorPage',
       page401:'401',
       page404:'404',
-      wechatNumber: 'wechat'
+      wechatNumber: 'wechat',
+        monitor:'monitor',
+        eureka:'eureka'
     },
     index:{
       yearLoss:'Year Loss',

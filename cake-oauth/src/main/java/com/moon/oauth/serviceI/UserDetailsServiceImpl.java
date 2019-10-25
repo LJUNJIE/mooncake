@@ -20,8 +20,12 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     private SystemService systemService;
     @Override
     public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
-        SysUser sysUser = systemService.getUserByName(name);
-
+        SysUser sysUser = new SysUser();
+        try {
+            sysUser = systemService.getUserByName(name);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return new UserVoDetail(Long.valueOf(sysUser.getId()),sysUser.getName(),sysUser.getPassword());
     }
 }

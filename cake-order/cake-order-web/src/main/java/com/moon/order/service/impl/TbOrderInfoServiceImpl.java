@@ -52,7 +52,6 @@ public class TbOrderInfoServiceImpl extends ServiceImpl<TbOrderInfoMapper, TbOrd
             TbProductInfoDto productInfoDto = new TbProductInfoDto();
             productInfoDto.setId(product.getId());
             productInfoDto.setNum(product.getNum());
-//            productClient.reduce(productInfoDto);
             // 推送消息到产品平台
             producer.send(productInfoDto);
             sumMoney+=product.getPrice();
